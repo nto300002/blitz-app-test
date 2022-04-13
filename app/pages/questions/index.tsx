@@ -69,6 +69,5 @@ const QuestionsPage: BlitzPage = () => {
 }
 
 QuestionsPage.authenticate = true
-QuestionsPage.getLayout = (page) => <Layout>{page}</Layout>
 
 export default QuestionsPage

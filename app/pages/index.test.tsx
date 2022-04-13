@@ -18,8 +18,4 @@ test.skip("renders blitz documentation link", () => {
     email: "user@email.com",
     role: "user",
   })
-
-  const { getByText } = render(<Home />)
-  const linkElement = getByText(/Documentation/i)
-  expect(linkElement).toBeInTheDocument()
 })

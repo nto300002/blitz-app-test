@@ -39,6 +39,5 @@ const NewQuestionPage: BlitzPage = () => {
 }
 
 NewQuestionPage.authenticate = true
-NewQuestionPage.getLayout = (page) => <Layout title={"Create New Question"}>{page}</Layout>
 
 export default NewQuestionPage

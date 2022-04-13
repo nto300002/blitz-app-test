@@ -4,6 +4,8 @@ import { z } from "zod"
 
 const CreateChoice = z.object({
   name: z.string(),
+  text: z.string(),
+  question: z.string(),
 })
 
 export default resolver.pipe(resolver.zod(CreateChoice), resolver.authorize(), async (input) => {

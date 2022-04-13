@@ -73,6 +73,5 @@ const EditQuestionPage: BlitzPage = () => {
 }
 
 EditQuestionPage.authenticate = true
-EditQuestionPage.getLayout = (page) => <Layout>{page}</Layout>
 
 export default EditQuestionPage
